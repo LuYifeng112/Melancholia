@@ -1,0 +1,16 @@
+##custom screen
+image starta:
+"startup 1.png"
+
+image startb:
+"startup2.png"
+
+
+default bg_toggle = False
+
+
+screen bg_swap:
+    if bg_toggle:
+        add "starta"
+    else:
+        add "startb"
